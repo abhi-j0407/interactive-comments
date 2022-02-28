@@ -1,6 +1,5 @@
 import './App.css'
 import commentData from './data.json'
-// import Comment from './components/Comment'
 import CommentWithReplies from './components/CommentWithReplies';
 
 
@@ -12,7 +11,7 @@ function App() {
         {
           commentData.comments.map((comment) => {
             return (
-              <CommentWithReplies mainComment={comment} replies={comment.replies} key={ comment.id }/>
+              <CommentWithReplies mainComment={comment} key={comment.id} currentUser={commentData.currentUser}/>
             )
             
           })
