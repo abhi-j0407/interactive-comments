@@ -22,17 +22,17 @@ const Comment = ({ mainComment, currentUser }) => {
                         </div>
                         {(mainComment.user.username === currentUser.username) ?
                             <div className="owner-ctrl">
-                                <button className='reply-toggle header-right' onClick={setReply}>
+                                <button className='clean-btn header-right'>
                                     <img src="../images/icon-delete.svg" alt="" className='icon' />
                                     <h4 className='delete-btn'>Delete</h4>  
                                 </button>
-                                <button className='reply-toggle header-right'>
+                                <button className='clean-btn header-right'>
                                     <img src="../images/icon-edit.svg" alt="" className='icon' />
                                     <h4 className='edit-btn'>Edit</h4>  
                                 </button>
                             </div>
                             :     
-                            <button className='reply-toggle header-right' onClick={setReply}>
+                            <button className='clean-btn header-right' onClick={setReply}>
                                 <img src="../images/icon-reply.svg" alt="" className='icon' />
                                 <h4 className='reply-btn'>Reply</h4>  
                             </button>            
@@ -43,7 +43,7 @@ const Comment = ({ mainComment, currentUser }) => {
                     </div>
                 </div>
             </div>
-            { showReply ? <Reply commentOwner = {mainComment.user.username} /> : null }
+            {showReply ? <Reply commentOwner={mainComment.user.username} currentUser={ currentUser}/> : null }
         </div>
   )
 }

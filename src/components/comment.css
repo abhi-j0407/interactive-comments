@@ -100,7 +100,7 @@
     cursor: pointer;
 }
 
-.reply-toggle {
+.clean-btn {
     background: none;
 	color: inherit;
 	border: none;
@@ -161,11 +161,11 @@
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.75em;
     margin-top: 1.2em;
-    column-gap: 1.5em;
+    column-gap: 3em;
 }
 
 .reply-area {
-    width: 80%;
+    width: 90%;
 }
 
 .user-img {

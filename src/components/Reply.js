@@ -1,10 +1,12 @@
-const Reply = ({commentOwner}) => {
+const Reply = ({ commentOwner, currentUser }) => {
+
+  const filePath = `../images/avatars/image-${currentUser.username}.png`
   
   return (
     <div className= 'container'>
       <div className="reply-container">
         <div className="user-img">
-          <img src='../images/avatars/image-amyrobson.png' alt="user-img" className='reply-avatar' />
+          <img src={filePath} alt="user-img" className='reply-avatar' />
         </div>
         <div className="reply-area">
           <form action="#" className="reply-form">
