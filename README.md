@@ -19,7 +19,7 @@ Created an interactive nested comments section using ReactJS, with likes counter
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://abhi-j0407.github.io/interactive-comments/
 
 ### Built with
 
