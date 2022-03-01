@@ -11,7 +11,7 @@ const AddComment = ({currentUser}) => {
           </div>
           <div className="reply-area">
             <form action="#" className="reply-form">
-              <textarea name="reply-textarea" id="" cols="36" rows="4" className="reply-textarea"></textarea>
+              <textarea name="reply-textarea" id="new-comment-text" cols="36" rows="4" className="reply-textarea"></textarea>
               <button type="submit" className="reply-button">SEND</button>
             </form>
           </div>

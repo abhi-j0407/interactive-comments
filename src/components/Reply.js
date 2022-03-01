@@ -10,7 +10,7 @@ const Reply = ({ commentOwner, currentUser }) => {
         </div>
         <div className="reply-area">
           <form action="#" className="reply-form">
-            <textarea name="reply-textarea" id="" cols="36" rows="4" className="reply-textarea" defaultValue={`@${commentOwner}`}></textarea>
+            <textarea name="reply-textarea" id="reply-text" cols="36" rows="4" className="reply-textarea" defaultValue={`@${commentOwner}`}></textarea>
             <button type="submit" className="reply-button">REPLY</button>
           </form>
         </div>
