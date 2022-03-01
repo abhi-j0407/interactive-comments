@@ -15,7 +15,7 @@ Created an interactive nested comments section using ReactJS, with likes counter
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./public/images/screenshot.png)
 
 ### Links
 
