@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AddComment = ({currentUser}) => {
-    const filePath = `../images/avatars/image-${currentUser.username}.png`
+    const filePath = `./images/avatars/image-${currentUser.username}.png`
   
     return (
       <div className= 'new-comment-container'>

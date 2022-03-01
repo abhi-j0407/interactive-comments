@@ -1,6 +1,6 @@
 const Reply = ({ commentOwner, currentUser }) => {
 
-  const filePath = `../images/avatars/image-${currentUser.username}.png`
+  const filePath = `./images/avatars/image-${currentUser.username}.png`
   
   return (
     <div className= 'container'>

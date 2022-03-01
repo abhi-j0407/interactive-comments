@@ -23,17 +23,17 @@ const Comment = ({ mainComment, currentUser }) => {
                         {(mainComment.user.username === currentUser.username) ?
                             <div className="owner-ctrl">
                                 <button className='clean-btn header-right'>
-                                    <img src="../images/icon-delete.svg" alt="" className='icon' />
+                                    <img src="./images/icon-delete.svg" alt="" className='icon' />
                                     <h4 className='delete-btn'>Delete</h4>  
                                 </button>
                                 <button className='clean-btn header-right'>
-                                    <img src="../images/icon-edit.svg" alt="" className='icon' />
+                                    <img src="./images/icon-edit.svg" alt="" className='icon' />
                                     <h4 className='edit-btn'>Edit</h4>  
                                 </button>
                             </div>
                             :     
                             <button className='clean-btn header-right' onClick={setReply}>
-                                <img src="../images/icon-reply.svg" alt="" className='icon' />
+                                <img src="./images/icon-reply.svg" alt="" className='icon' />
                                 <h4 className='reply-btn'>Reply</h4>  
                             </button>            
                         }
