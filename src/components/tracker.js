@@ -9,9 +9,9 @@ const Tracker = ({ score }) => {
 
   return (
     <div className="tracker">
-      <img src="/images/icon-plus.svg" alt="increment-track" className="tracker-icon" onClick={increaseScore}/>
+      <img src="./images/icon-plus.svg" alt="increment-track" className="tracker-icon" onClick={increaseScore}/>
       <h5 className="likes">{shownScore}</h5>
-      <img src="/images/icon-minus.svg" alt="decrement-tracker" className="tracker-icon" onClick={decreaseScore}/>
+      <img src="./images/icon-minus.svg" alt="decrement-tracker" className="tracker-icon" onClick={decreaseScore}/>
     </div>
   )
 }
