@@ -5,7 +5,6 @@ import AddComment from './components/AddComment';
 
 
 function App() {
-  console.log(commentData)
   return (
     <div className="App">
       <div className="main-container">
