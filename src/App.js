@@ -1,6 +1,7 @@
 import './App.css'
 import commentData from './data.json'
 import CommentWithReplies from './components/CommentWithReplies';
+import AddComment from './components/AddComment';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             
           })
         }
+        <AddComment currentUser={commentData.currentUser}/>
       </div>
     </div>
   );

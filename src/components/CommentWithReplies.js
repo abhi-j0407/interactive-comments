@@ -1,4 +1,3 @@
-import './comment.css'
 import Comment from "./Comment"
 
 const CommentWithReplies = ({ mainComment, currentUser}) => {
